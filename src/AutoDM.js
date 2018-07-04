@@ -41,7 +41,7 @@ const GenerateMessage = name => {
   ];
   const d = new Date();
   const dayName = days[d.getDay()];
-  return `${name},yakışıklım.Nasılsın?\nBen çok kötüyüm :( Sevgilimden ayrıldım.. Biliyorum bu ayıp ama biraz teselli edebilir misin?\n\nNumaram: 00372 707 80 24 😊😊 `; // your message
+  return `Merhaba ${name}\n Off canım sıkıldı... Biraz konuşalım mı? \n00372 707 80 24 😊😊 `; // your message
   // My message   return `Hi ${name} Thanks for being a part of my social media network. I'am the @PicsrushE founder,A new Online Image Editor completely with web technologies,I'm also a reactjs developer and medium blogger.\n Happy to discuss anytime 😊  \n Happy ${dayName} 😊😊 `;
 };
 
